@@ -1,0 +1,17 @@
+{
+  "name": "imageAnalyzer",
+  "displayName": "imageAnalyzer",
+  "expo": {
+    "name": "imageAnalyzer",
+    "slug": "imageAnalyzer",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
