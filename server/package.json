@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ts-node index.ts",
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "@tensorflow-models/mobilenet": "^2.0.4",
+    "@tensorflow/tfjs": "^2.0.0",
+    "@tensorflow/tfjs-node": "^2.0.0",
+    "@types/express": "^4.17.6",
+    "@types/node": "^14.0.13",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "nodemon": "^2.0.4"
+  }
+}
